@@ -1144,10 +1144,6 @@ Panel Styling
 .panel-default > .panel-footer{
 	border-color: #e8e8eb;
 	box-shadow:none;}		
-
-.panel-default > .panel-heading,
-.btn-default{
-	color:#fff;}
 	
 	
 /*** primary ***/

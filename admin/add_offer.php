@@ -1,12 +1,15 @@
 <?php 
 	include('header.php');
 	include('sidebar.php');
-	$status = $_GET['status'];
-	$msg = $_GET['msg'];
-	if($status == 'success'){
-		echo '<script>alert("Offer uploaded successfully")</script>';
-	}else{
-		echo '<script>alert("Failed to upload offer "'.$msg.')</script>';
+	if(isset($_GET['status']))
+	{
+		$status = $_GET['status'];
+		$msg = $_GET['msg'];
+		if($status == 'success'){
+			echo '<script>alert("Offer uploaded successfully")</script>';
+		}else if($status == 'fail'){
+			echo '<script>alert("Failed to upload offer "'.$msg.')</script>';
+		}
 	}
 ?>
 <body>

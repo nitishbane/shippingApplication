@@ -36,4 +36,7 @@
 	<script src="../assets/js/jquery/jquery.min.js" type="text/javascript"></script>
 	<script src="../assets/js/bootstrap/bootstrap.min.js"></script>
 	<script src="../assets/js/app/custom.js" type="text/javascript"></script>
+	<script src="../assets/js/plugins/datatables/jquery.dataTables.js"></script>
+	<script src="../assets/js/common.js"></script>
+	
 </head>
